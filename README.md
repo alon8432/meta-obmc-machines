@@ -23,6 +23,4 @@ t/yocto-project-qs/yocto-project-qs.html).
  $ bitbake core-image-base
  ```
  The build process automatically fetches all necessary packages and builds the complete image. The final build results a
-re in `openbmc/build/tmp/deploy/images/<platform>`. The root password will be `0penBmc`, you may change this in the loca
-l configuration.
-
+re in `openbmc/build/tmp/deploy/images/<platform>`. 
