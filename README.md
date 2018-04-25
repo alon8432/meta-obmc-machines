@@ -12,3 +12,4 @@ git clone https://github.com/alon8432/meta-obmc-machines.git
 export TEMPLATECONF=meta-obmc-machines/meta-evb/meta-evb-raspberrypi/conf
 source oe-init-build-env rpi-build/
 bitbake core-image-base
+
