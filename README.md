@@ -2,6 +2,7 @@
 
 Step:
 
+
 git clone git://git.yoctoproject.org/poky
 cd poky
 git clone git://git.openembedded.org/meta-openembedded
