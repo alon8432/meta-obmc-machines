@@ -17,7 +17,7 @@ sudo apt-get install -y git build-essential libsdl1.2-dev texinfo gawk chrpath d
 3. Initialize a build directory for the platform to build. In the `openbmc` directory:
  ```bash
  $ export TEMPLATECONF=meta-obmc-machines/meta-evb/meta-evb-raspberrypi/conf
- $ source oe-init-build-env rpi-build/
+ $ source poky/oe-init-build-env rpi-build
  ```
 4. Start the build within the build directory:
  ```bash
