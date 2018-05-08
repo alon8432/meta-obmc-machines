@@ -10,11 +10,13 @@ sudo apt-get install -y git build-essential libsdl1.2-dev texinfo gawk chrpath d
 1. Clone the OpenBMC repository and other open source repositories:
  ```bash
  $ git clone git://git.yoctoproject.org/poky
+ $ git clone https://github.com/alon8432/meta-obmc-machines.git
+ $ mkdir import-layers
+ $ cd import-layers
  $ git clone git://git.openembedded.org/meta-openembedded
  $ git clone git://git.yoctoproject.org/meta-raspberrypi
- $ git clone https://github.com/alon8432/meta-obmc-machines.git
  ```
-3. Initialize a build directory for the platform to build. In the `openbmc` directory:
+3. Initialize a build directory for the platform to build. In the `root` directory:
  ```bash
  $ export TEMPLATECONF=meta-obmc-machines/meta-evb/meta-evb-raspberrypi/conf
  $ source poky/oe-init-build-env rpi-build

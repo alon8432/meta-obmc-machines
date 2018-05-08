@@ -6,22 +6,22 @@ BBPATH = "${TOPDIR}"
 BBFILES ?= ""
 
 BBLAYERS ?= " \
-  ##OEROOT##/poky/meta \
-  ##OEROOT##/poky/meta-poky \
-  ##OEROOT##/poky/meta-yocto-bsp \
-  ##OEROOT##/meta-openembedded/meta-oe \
-  ##OEROOT##/meta-openembedded/meta-multimedia \
-  ##OEROOT##/meta-openembedded/meta-networking \
-  ##OEROOT##/meta-openembedded/meta-python \
-  ##OEROOT##/meta-raspberrypi \
+  ##OEROOT##/meta \
+  ##OEROOT##/meta-poky \
+  ##OEROOT##/meta-yocto-bsp \
+  ##OEROOT##/import-layers/meta-openembedded/meta-oe \
+  ##OEROOT##/import-layers/meta-openembedded/meta-multimedia \
+  ##OEROOT##/import-layers/meta-openembedded/meta-networking \
+  ##OEROOT##/import-layers/meta-openembedded/meta-python \
+  ##OEROOT##/import-layers/meta-raspberrypi \
   "
 BBLAYERS_NON_REMOVABLE ?= " \
-  ##OEROOT##/poky/meta \
-  ##OEROOT##/poky/meta-poky \
-  ##OEROOT##/poky/meta-yocto-bsp \
-  ##OEROOT##/meta-openembedded/meta-networking \
-  ##OEROOT##/meta-openembedded/meta-multimedia \
-  ##OEROOT##/meta-openembedded/meta-python \
-  ##OEROOT##/meta-openembedded/meta-oe \
-  ##OEROOT##/meta-raspberrypi \
+  ##OEROOT##/meta \
+  ##OEROOT##/meta-poky \
+  ##OEROOT##/meta-yocto-bsp \
+  ##OEROOT##/import-layers/meta-openembedded/meta-networking \
+  ##OEROOT##/import-layers/meta-openembedded/meta-multimedia \
+  ##OEROOT##/import-layers/meta-openembedded/meta-python \
+  ##OEROOT##/import-layers/meta-openembedded/meta-oe \
+  ##OEROOT##/import-layers/meta-raspberrypi \
   "
