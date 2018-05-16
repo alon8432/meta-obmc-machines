@@ -14,6 +14,8 @@ BBLAYERS ?= " \
   ##OEROOT##/import-layers/meta-openembedded/meta-networking \
   ##OEROOT##/import-layers/meta-openembedded/meta-python \
   ##OEROOT##/import-layers/meta-raspberrypi \
+  ##OEROOT##/meta-obmc-machines \
+  ##OEROOT##/meta-obmc-machines/meta-evb-raspberrypi \
   "
 BBLAYERS_NON_REMOVABLE ?= " \
   ##OEROOT##/meta \
