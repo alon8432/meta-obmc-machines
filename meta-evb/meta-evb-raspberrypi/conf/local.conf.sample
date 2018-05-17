@@ -237,3 +237,8 @@ CONF_VERSION = "1"
 
 # Enable UART by default
 ENABLE_UART = "1"
+
+INHERIT += "extrausers"
+EXTRA_USERS_PARAMS = " \
+  usermod -p 123456 root; \
+  "
