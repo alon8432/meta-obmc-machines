@@ -11,14 +11,11 @@ CORE_OS = " \
     kernel-modules \
     openssh openssh-keygen openssh-sftp-server \
     packagegroup-core-boot \
-    term-prompt \
-    tzdata \
 "
 
 WIFI_SUPPORT = " \
     crda \
     iw \
-    linux-firmware-raspbian \
     wireless-tools \
     wpa-supplicant \
 "
@@ -51,8 +48,6 @@ DEV_SDK_INSTALL = " \
 DEV_EXTRAS = " \
     ntp \
     ntp-tickadj \
-    serialecho  \
-    spiloop \
 "
 
 EXTRA_TOOLS_INSTALL = " \
@@ -79,8 +74,6 @@ EXTRA_TOOLS_INSTALL = " \
 "
 
 RPI_STUFF = " \
-    omxplayer \
-    raspi2fb \
     userland \
 "
 
