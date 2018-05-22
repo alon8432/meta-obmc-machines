@@ -62,7 +62,7 @@ EXTRA_TOOLS_INSTALL = " \
     iproute2 \
     iptables \
     less \
-    nano \
+    vim \
     netcat \
     procps \
     sysfsutils \
@@ -71,6 +71,10 @@ EXTRA_TOOLS_INSTALL = " \
     util-linux \
     wget \
     zip \
+"
+
+EXTRA_UTILS_INSTALL = " \
+    test-util \
 "
 
 RPI_STUFF = " \
