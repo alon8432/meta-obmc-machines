@@ -24,7 +24,7 @@ sudo apt-get install -y git build-essential libsdl1.2-dev texinfo gawk chrpath d
  ```
 4. Start the build within the build directory:
  ```bash
- $ bitbake core-image-base
+ $ bitbake console-image
  ```
  The build process automatically fetches all necessary packages and builds the complete image. The final build results a
 re in `rpi-build/tmp/deploy/images/<platform>`. 
