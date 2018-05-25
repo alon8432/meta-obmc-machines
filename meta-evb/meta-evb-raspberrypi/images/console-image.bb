@@ -74,7 +74,7 @@ EXTRA_TOOLS_INSTALL = " \
 "
 
 EXTRA_UTILS_INSTALL = " \
-    test-util \
+    webui \
 "
 
 RPI_STUFF = " \
@@ -88,6 +88,7 @@ IMAGE_INSTALL += " \
     ${EXTRA_TOOLS_INSTALL} \
     ${RPI_STUFF} \
     ${WIFI_SUPPORT} \
+    ${EXTRA_UTILS_INSTALL} \
 "
 export IMAGE_BASENAME = "console-image"
 
