@@ -42,7 +42,7 @@ DEV_SDK_INSTALL = " \
     libtool \
     make \
     pkgconfig \
-    python3-modules \
+    python \
 "
 
 DEV_EXTRAS = " \
