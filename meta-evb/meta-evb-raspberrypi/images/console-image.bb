@@ -43,6 +43,10 @@ DEV_SDK_INSTALL = " \
     make \
     pkgconfig \
     python \
+    python-modules \
+    python3 \
+    python3-modules \
+    python3-git \
 "
 
 DEV_EXTRAS = " \
