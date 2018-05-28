@@ -11,13 +11,21 @@ CORE_OS = " \
     kernel-modules \
     openssh openssh-keygen openssh-sftp-server \
     packagegroup-core-boot \
+    os-release \
 "
 
-WIFI_SUPPORT = " \
+NETWORK_SUPPORT = " \
     crda \
     iw \
     wireless-tools \
     wpa-supplicant \
+    dhcp-client \
+    ntp \
+    ntp-utils \
+    ntpdate \
+    sntp \
+    iproute2 \
+    iptables \
 "
 
 DEV_SDK_INSTALL = " \
@@ -50,8 +58,6 @@ DEV_SDK_INSTALL = " \
 "
 
 DEV_EXTRAS = " \
-    ntp \
-    ntp-tickadj \
 "
 
 EXTRA_TOOLS_INSTALL = " \
@@ -63,8 +69,6 @@ EXTRA_TOOLS_INSTALL = " \
     findutils \
     i2c-tools \
     iperf3 \
-    iproute2 \
-    iptables \
     less \
     vim \
     netcat \
@@ -91,7 +95,7 @@ IMAGE_INSTALL += " \
     ${DEV_EXTRAS} \
     ${EXTRA_TOOLS_INSTALL} \
     ${RPI_STUFF} \
-    ${WIFI_SUPPORT} \
+    ${NETWORK_SUPPORT} \
     ${EXTRA_UTILS_INSTALL} \
 "
 export IMAGE_BASENAME = "console-image"
