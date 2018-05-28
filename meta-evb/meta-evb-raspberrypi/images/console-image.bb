@@ -61,24 +61,17 @@ DEV_EXTRAS = " \
 "
 
 EXTRA_TOOLS_INSTALL = " \
-    bzip2 \
-    devmem2 \
-    dosfstools \
     ethtool \
-    fbset \
     findutils \
     i2c-tools \
-    iperf3 \
     less \
     vim \
-    netcat \
     procps \
     sysfsutils \
-    tcpdump \
     unzip \
     util-linux \
     wget \
-    zip \
+    tar \
 "
 
 EXTRA_UTILS_INSTALL = " \
