@@ -62,5 +62,5 @@ IMAGE_INSTALL += " \
     ${NETWORK_SUPPORT} \
     ${EXTRA_UTILS_INSTALL} \
 "
-export IMAGE_BASENAME = "console-image"
+export IMAGE_BASENAME = "mini-console-image"
 
