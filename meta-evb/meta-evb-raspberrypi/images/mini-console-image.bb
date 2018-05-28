@@ -4,7 +4,6 @@ require recipes-core/images/rpi-basic-image.bb
 
 CORE_OS = " \
     kernel-modules \
-    openssh openssh-keygen openssh-sftp-server \
     packagegroup-core-boot \
     os-release \
 "
