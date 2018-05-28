@@ -1,11 +1,6 @@
 SUMMARY = "A mini console image with webui support"
 
-IMAGE_FEATURES += "package-management splash"
-IMAGE_LINGUAS = "en-us"
-
-inherit image
-
-DEPENDS += "bcm2835-bootfiles"
+require recipes-core/images/rpi-basic-image.bb
 
 CORE_OS = " \
     kernel-modules \
@@ -34,6 +29,11 @@ DEV_SDK_INSTALL = " \
     python3 \
     python3-modules \
     python3-git \
+    bcm2835-tests \
+    wiringpi \
+    rpio \
+    rpi-gpio \
+    pi-blaster \
 "
 
 DEV_EXTRAS = " \
