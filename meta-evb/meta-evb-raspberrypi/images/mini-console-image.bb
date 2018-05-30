@@ -29,10 +29,14 @@ DEV_SDK_INSTALL = " \
     python3-modules \
     python3-git \
     bcm2835-tests \
+"
+
+DEV_TOOLS_INSTALL = " \
     wiringpi \
     rpio \
     rpi-gpio \
     pi-blaster \
+    mtd-utils \
 "
 
 DEV_EXTRAS = " \
@@ -55,6 +59,7 @@ RPI_STUFF = " \
 IMAGE_INSTALL += " \
     ${CORE_OS} \
     ${DEV_SDK_INSTALL} \
+    ${DEV_TOOLS_INSTALL} \
     ${DEV_EXTRAS} \
     ${EXTRA_TOOLS_INSTALL} \
     ${RPI_STUFF} \
