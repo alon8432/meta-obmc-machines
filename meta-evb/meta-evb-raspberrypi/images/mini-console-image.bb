@@ -1,6 +1,6 @@
 SUMMARY = "A mini console image with webui support"
 
-require recipes-core/images/rpi-basic-image.bb
+require recipes-core/images/core-image-base.bb
 
 CORE_OS = " \
     kernel-modules \
