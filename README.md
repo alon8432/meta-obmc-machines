@@ -11,7 +11,7 @@ sudo apt-get install -y git build-essential libsdl1.2-dev texinfo gawk chrpath d
  ```bash
  $ git clone -b rocko https://git.yoctoproject.org/git/poky
  $ cd poky
- $ git clone https://github.com/alon8432/meta-obmc-machines.git
+ $ git clone https://github.com/alon8432/meta-obmc-machines.git -b airplay
  $ mkdir import-layers
  $ cd import-layers
  $ git clone -b rocko https://github.com/openembedded/meta-openembedded.git
